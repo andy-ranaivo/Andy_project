@@ -1,0 +1,295 @@
+/*css ZE-ELECTRICIEN*/
+body {
+	background-color: #f4f4f4;
+	font-family:Arial;
+}
+html {
+	margin: 0 !important;
+ }
+.page{
+	height: auto;
+	width: 100%;
+}
+@media screen and (max-width:1000px) {
+ .page {
+  padding: 0 10px } 
+  }
+/*abstract class*/
+.full-width {
+	 max-width: 1000px;
+	 width: 100%; /*new version*/
+	 height: auto;
+ }
+.auto {
+	 float: none;
+	 margin: auto;
+	 overflow: hidden; /*new version*/
+	 position: relative;
+	 }
+.inner {
+	padding: 0 25px;
+	background-color:#fff;
+	
+ }
+ /*logo and banner*/
+header .inner .logo {
+	margin: auto;
+	padding: 0;
+}
+@media screen and (min-width:1200px) {
+    header .inner .logo {
+		float: left;
+		height: auto }}
+@media screen and (max-width:1000px) {
+	header .inner .logo {
+		float: none;
+		height: auto; }
+}
+	header .inner .logo a {
+		display: block;
+		height: auto;
+		width: 100%;}
+	header .inner .logo img {
+		float: left;
+		display: block;
+		position: relative;
+		height: auto;
+	}
+	/*contact */
+	
+	@media screen and (min-width:1200px) {
+    
+	header .inner #contact {
+		
+	   color: #2e3032;
+	   font-family: futura_bk_btbook;
+	   float: right;
+	   padding: 15px 0 0 15px;
+	   text-align: right;}
+	   }
+	@media screen and (max-width:640px) {
+    header .inner #contact {
+     float: left; }}
+	   header .inner #contact span {
+		
+    font-size: 2.8rem;}
+	 header .inner  #contact p {
+	 margin:0;
+	text-transform:uppercase;
+    font-size: 0.8rem}
+header .menu{
+	
+	background:#2e3032 url(../image/foot_header.png) no-repeat left bottom;
+	height:auto;
+	
+}
+
+header .menu .nav_menu{
+	padding:0 57px;
+	padding-top:14px;
+	
+	
+}
+header .menu .nav_menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#fff;
+	
+}
+header .menu .nav_menu ul li{
+	display:block;
+	float:left;
+	margin-right:55px;
+	margin-left:10px;
+	padding-bottom:4px;
+	border-bottom:2px solid #ed1a20;
+}
+header .menu .nav_menu ul li a{
+	background:url(../image/puce_rouge.png) no-repeat left;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding-left:10px;
+	text-transform:uppercase;
+	
+}
+header .inner .banner .slogan{
+	padding-top:20px;
+	text-transform:uppercase;
+	position:relative;
+
+	}
+	@media screen and(max-width:1000px){
+	header .inner .banner.slogan{
+	padding-top:5px;
+		}
+	}
+header .inner .banner .slogan span{
+	background:url(../image/pslogan.png) no-repeat left;
+	
+	padding:5px 0 5px 15px;
+	font-size:0.8rem;
+	font-weight:bold;
+	margin:0;
+	display:block;
+
+}
+header .inner .banner p{
+	line-height:3;
+	font-size:0.8rem;
+	margin: 0 0 3px;
+	padding:0 0 0 18px;
+	color:#ed1a20;
+	}
+	header .inner .banner span{
+	display:block;
+	background:  url(../image/horloge.png) no-repeat left center;
+	padding-left:35px;
+	padding-bottom:30px;
+	padding-top:10px;
+	
+	font-size:0.8rem;
+	color:#fff;
+	width:100%;
+	
+	
+	
+}	
+header .inner .banner{
+	background:url(../image/banner_pub.png) no-repeat left bottom ;
+	margin:0;
+	padding:0;
+	padding:75px 0 0 250px;
+	position:relative;
+	
+}
+
+.content{
+	
+	
+	
+	
+	background-color:#f4f4f4;
+}
+ .content .sidebar{
+	
+	padding:0;
+}
+.content .contact{
+	background-color:#2e3032;
+	margin-top:45px;
+	
+	
+}
+.content .entete{
+	background-color:#565656;
+}
+.content .entete h1{
+	font-size:1.3rem;
+	text-align:center;
+	padding:5px 5px 5px 5px;
+	color:#fff;
+
+}
+
+.content  .adresse{
+	
+	display:block;
+	margin:0 auto;
+	background: url(../image/img5.png) no-repeat left center;
+	padding-left:75px;
+	padding-top:25px;
+	padding-bottom:25px;
+	width:45%;
+	font-size:0.6rem;
+	color:#fff;
+	
+}
+.content img{
+	width:100%;
+ 
+}	
+.content .texte{
+	font-size:0.6rem;
+	display:block;
+	margin-top:20px;
+}
+article{
+	
+	width:557px;
+	float:right;
+	height:auto;
+	margin-top:25px;
+	
+	
+}
+article .content_article{
+	background-color:#fff;
+	border:1px solid #afa9a9;
+	margin-top:15px;
+}
+article .entete_article{
+	background-color:#ed1a20;
+	text-transform:uppercase;
+	color:#fff;
+	top:0;
+}
+
+article .entete_article h3{
+	padding:5px 0 5px 10px;
+	margin:0;
+	font-size:0.8em;
+
+}
+article  span{
+	width:90%;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+footer{
+	margin:4px 0 0 0;
+	padding:0;
+}
+footer .menu{
+	background-color:#565656;
+	height:auto;
+}
+
+footer .menu .nav_menu ul{
+	
+	list-style:none;
+	color:#fff;
+	
+}
+footer .menu .nav_menu ul li{
+	display:block;
+	float:left;
+	margin-right:55px;
+	margin-top:25px;
+	margin-bottom:25px;
+	margin-left:10px;
+	padding-bottom:4px;
+	
+}
+footer .menu .nav_menu ul li a{
+	background:url(../image/puce_blanc.png) no-repeat left;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding-left:10px;
+	text-transform:uppercase;
+	
+}
+footer .mention{
+	background-color:#f4f4f4;
+}
+footer .mention span{
+	text-transform:uppercase;
+	display:block;
+	text-align:center;
+	padding:10px 0 10px 0;
+	
+}

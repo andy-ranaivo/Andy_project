@@ -1,0 +1,12 @@
+nombdd:dev
+user:andy
+mdp:Andy140191
+------------
+$mysql_host = "mysql11.000webhost.com";
+$mysql_database = "a4732603_dev";
+$mysql_user = "a4732603_andy";
+$mysql_password = "Andy140191";
+
+devdesign2.net16.net
+host: 	a4732603
+mdp:Andy140191
