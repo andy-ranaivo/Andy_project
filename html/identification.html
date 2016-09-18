@@ -1,0 +1,68 @@
+    <!doctype html>
+    <html>
+    <head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Gestion Commerciale || Identification</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/commun.css" rel="stylesheet" type="text/css">
+        <link href="css/connect.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="pageIdentification">
+            <!-- header -->
+            <header>
+                <div class="wrapper clearfix">
+                    <div class="logo">
+                            <span class="imgLogo"><img src="images/logo_245.png" alt=""></span>
+                    </div>
+                </div>
+            </header>
+            <!-- /header -->
+
+        	<!-- content Page -->
+            <article class="container">
+                <div class="wrapper">
+                    <div class="identificationBlock">
+                        <h1>Gestion Commerciale</h1>
+                        <div class="wrapContent">
+                            <div class="fieldBlock">
+                                <form action="#">
+                                    <p class="errorInfos">Login ou mot de passe incorrect</p>
+                                    <dl class="clearfix">
+                                        <dt class="userField"><label for="utilisateur_id">Utilisateur</label></dt>
+                                        <dd class="userField error"><input type="text" id="utilisateur_id" name="utilisateur"id="mdp_id" name="Utilisateur" value="Utilisateur" placeholder="Utilisateur"></dd>
+
+                                        <dt class="pwdField"><label for="mdp_id">Mot de passe</label></dt>
+                                        <dd class="pwdField"><input type="password" name="mot de passe" id="mdp_id" name="Mot de passe" placeholder="Mot de passe"></dd>
+                                        <dt class="btnAction">
+                                            <input type="submit" Value="Se connecter" name="se connecter" id="seConnecter_id">
+                                        </dt>
+                                    </dl>
+                                </form>
+                            </div>
+                            <p class="aideBlock">
+                               <a href="#">Mot de passe oublié</a> 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- /content Page -->
+            
+            <!-- footer -->
+        	<footer class="footer">
+            </footer>
+        	<!-- /footer -->
+        </div>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/Placeholders.min.js"></script>
+        <script type="text/javascript" src="js/global.js"></script>
+        <script type="text/javascript">
+           /* $(function(){
+                $('input').placeholder();
+            });*/
+        </script>
+    </body>
+    </html>

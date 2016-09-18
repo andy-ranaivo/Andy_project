@@ -1,0 +1,612 @@
+@charset "utf-8";
+
+
+/* Block Filtre */
+.filterBlock, .fieldBlock {
+	border: 1px solid #f2f2f2;
+	height: auto;
+	margin-bottom: 15px; 
+	min-height: 30px;
+	padding: 10px;
+}
+.fieldBlock dl { float: left; }
+.fieldBlock .itemField {
+	margin-right: 10px;
+	width: 27%;
+	/* width: 262px; */
+}
+.fieldBlock .lastField { 
+	margin-right: 0;
+}
+.fieldBlock dt {
+	margin-bottom: 7px;
+}
+.fieldBlock .itemField dd {
+	background: #fff;
+	height: 27px;
+	width: 100%;
+}
+.fieldBlock label, 
+.fieldBlock input, 
+.fieldBlock select {
+	color: #606060;
+	display: block;
+	font-size: 1.2em;
+}
+.fieldBlock select, 
+.fieldBlock input {
+	background: none;
+	border: none;
+	width: 100%;
+}
+.fieldBlock select {
+	background: #fff;
+	border: 1px solid #d1d1d1;
+	color: #000;
+	display: block;
+	font-size: 1.1em;
+	height: 27px;
+	padding: 4px 5px 4px 2px;
+	width: 100%;
+}
+.fieldBlock select option {
+	padding: 0 5px 5px;
+}
+.fieldBlock input {
+	border: 1px solid #d1d1d1;
+	color: #606060;
+	display: block;
+	font-size: 1.2em;
+	height: 25px;
+	margin-top: 7px;
+	padding: 0 3%;
+	width: 92.8%;
+	}
+
+.filterBlock .btnAction {
+	float: right;
+}
+.filterBlock .btnAction { padding-top: 25px;}
+.filterBlock .btnAction input {
+	background: #ebebeb;
+	border: 1px solid #c5c5c5;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #4f4f4f;
+	height: 27px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 135px;
+}
+.filterBlock .advancedSearch {
+	float: right;
+	margin-right: 10px;
+	padding-top: 32px;
+}
+.filterBlock .advancedSearch a {
+	background: url('../images/plus.png') no-repeat left center;
+	display: block;
+	color: #8c8c8c;
+	font-size: 1.2em;
+	padding-left: 22px;
+}
+
+/* recherche Avancé */
+.advancedSearchBlock {
+	background: url('../images/bgpatern_gris3.png') repeat;
+	display: none; 
+}
+.advancedSearchBlock .itemField {
+	margin-bottom: 15px;
+	margin-right: 1.33%;
+	width: 24%;
+	/* width: 239px; */
+}
+.advancedSearchBlock .itemField:last-child { margin-right: 0;}
+
+.advancedSearchBlock dt {}
+.advancedSearchBlock .itemField  dd {
+	background: none;
+	/* width: 93%; */
+}
+
+.advancedSearchBlock label {}
+.advancedSearchBlock input {background: #fff;}
+
+/* onglets sur tableau de bord */
+.tabBlock {
+	border-bottom: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+	height: 49px;
+	margin-bottom: 40px;
+}
+.tabBlock .tabList{
+	height: 31px;
+	margin: 18px 0 0 8px;
+}
+.tabBlock li {
+	float: left;
+	height: 31px;
+	margin-right: 1px;
+	text-align: center;
+	width: 138px;
+}
+.tabBlock li a {
+	background: #f3f3f3;
+	color: #141414;
+	display: block;
+	font-size: 12px;
+	height: 31px;
+	line-height: 34px;
+	border-radius: 10px 10px 0 0;
+}
+.tabBlock li.active a, .tabBlock li a:hover  {
+	background: #fbe20a;
+	color: #313131;
+	text-decoration: none;
+}
+
+/* chiffre d'affaire Block ::: Tableau de bord */
+.chiffreAffaireBlock {}
+.chiffreAffaireBlock .contentItem {}
+.chiffreAffaireBlock .contentItem .linkTop {
+	background: url('../images/fleche_bas8.png') no-repeat left center;
+	color: #056fb3;
+	display: block;
+	font-size: 1.2em;
+	margin-left: 15px;
+	padding-left: 20px;
+}
+.chiffreAffaireBlock .tableChiffreAffaire { 
+	border: 1px solid #f2f2f2;
+	margin-bottom: 54px;
+	width: 100%; 
+}
+
+.chiffreAffaireBlock tr {}
+.chiffreAffaireBlock .statusAffaire {}
+.chiffreAffaireBlock .statusDate {
+	background: #f9f9f9;
+}
+.chiffreAffaireBlock td {
+	vertical-align: middle;
+	padding: 16px 0 16px 12px;
+}
+
+.chiffreAffaireBlock .cols1 { width: 35%;}
+.chiffreAffaireBlock .cols2 { width: 30%; }
+.chiffreAffaireBlock .cols3 { }
+
+.chiffreAffaireBlock p { }
+.chiffreAffaireBlock .stockItem p {}
+.chiffreAffaireBlock span { 
+	display: block;
+}
+.chiffreAffaireBlock .labeled {
+	color: #5b5b5b;
+	font-size: 1.1em;
+	margin-bottom: 9px;
+}
+.chiffreAffaireBlock .value {
+	color: #056fb3;
+	font-size: 18px;
+}
+.chiffreAffaireBlock .value span {
+	display: inline;
+	font-size: 11px;
+}
+.chiffreAffaireBlock .pickerDate { width: 262px;}
+.chiffreAffaireBlock .action { }
+
+.chiffreAffaireBlock .pickerDate input {
+	color: #606060;
+	display: block;
+	font-size: 1.2em;
+	height: 27px;
+	line-height: 27px;
+	padding: 0 10px;
+	width: 240px;
+}
+.chiffreAffaireBlock .statusDate .cols3 p {
+	float: right;
+	margin-right: 13px;
+}
+.chiffreAffaireBlock .stockItem .value {
+	color: #ed145b;
+}
+.chiffreAffaireBlock .action a {
+	background: #ebebeb;
+	border: 1px solid #c5c5c5;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #4f4f4f;
+	display: block;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 133px;
+}
+
+/* tableau */
+.tableBock { margin: 20px 0 50px; }
+.tableBock table {
+	width: 100%;
+}
+.tableBock table tr {
+	background: #fff;
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 1px 0;
+	height: 38px
+}
+.tableBock table tr.rowContent:hover { background: #f6f6f6; }
+.tableBock table th, 
+.tableBock table td {
+	color: #5b5b5b;
+	font-size: 1.2em;
+	height: 38px;
+	vertical-align: middle;
+	padding: 0 15px;
+	text-align: left;
+}
+.tableBock table th {
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 0 1px;
+	position: relative;
+}
+.tableBock table .col1 { border-left: none; width: 11.38%; }
+.tableBock table .col2 { width: 30%; }
+.tableBock table .col3 { text-align: right; width: 10%; }
+.tableBock table .col4 { text-align: right; width: 16%; }
+.tableBock table .col5 {  text-align: left; width: 26%; }
+.tableBock table .col6 { border-right: none; text-align: center;/* width: 14%; */ }
+
+/* Sorter link */
+.tableBock table .sorter {
+	background: url('../images/fleche_bas8.png') no-repeat center center;
+	cursor: pointer;
+	display: block;
+	/* float: right; */
+	height: 45%;
+	/* margin-right: 12px; */
+	position: absolute;
+	right: 0;
+	top: 30%;
+	width: 25px;
+	z-index: 2;
+}
+
+/* Outils actions */
+.tableBock table .actionCols a {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+.tableBock table .actionCols span {
+	font-size: 0;
+	text-indent: -9999px;
+}
+.tableBock table .actionCols .editAction {
+	background: url('../images/picto_edit.png') no-repeat;
+	margin-right: 18px;
+}
+.tableBock table .actionCols .modifAction {	background: url('../images/picto_modif.png') no-repeat; }
+.tableBock table .actionCols a:hover { background-position: 0 -16px; }
+
+table a { color: #056fb3; }
+table a:hover {
+	color: #056fb3;
+	text-decoration: underline;
+}
+
+/* block formulaire */
+.formBlock { /* width: 641px; */}
+.formBlock form {}
+.formBlock dl {
+	width: 93%;
+	/* width: 58.57%; */
+}
+.formBlock dt, .formBlock dd {
+	border: 1px solid #f0f0f0;
+	float: left;
+	min-height: 41px;
+	margin-bottom: 3px;
+}
+.formBlock dt {
+	background: #fff;
+	border-right: none;
+	clear: left;
+	height: 100%;
+	padding-left: 13px;
+	width: 35%;
+}
+.formBlock .txtItem {height: 123px;}
+.formBlock dd {
+	background: #fafafa;
+	border-left: 1px solid #f0f0f0;
+	height: 100%;
+	margin-bottom: 3px;
+	min-height: 41px;
+	padding: 0 5px;
+	position: relative;
+	width: 60.9%;
+	/* width: 60.174%; */
+}
+.formBlock label {
+	color: #000;
+	display: block;
+	font-size: 1.1em;
+	line-height: 41px;
+}
+.formBlock span, .formBlock p {
+	color: #000;
+	display: block;
+	font-size: 1.1em;
+	height: 41px;
+	line-height: 41px;
+	padding-left: 7px;
+}
+.formBlock .value2 {
+	color: #056fb3;
+}
+.formBlock .blkRight, .formBlock .uploader .fileBtn {
+	background: #056fb3;
+	border: 1px solid #f0f0f0; 
+	border-left: none;
+	color: #fff;
+	display: block;
+	font-size: 1.1em;
+	height: 41px;
+	position: absolute;
+	right: -83px;
+	top: -1px;
+	padding: 0 12px;
+	width: 57px;
+}
+.formBlock .blkRight span {
+	color: #fff;
+	display: block;
+	padding-left: 18px;
+}
+.formBlock .btnEcouter span {
+	background: url('../images/picto_jouer.png') no-repeat left center;
+}
+.formBlock .btnAjouter { top: 40px;}
+.formBlock .btnAjouter span {
+	background: url('../images/picto_ajouter.png') no-repeat left center;
+	padding-left: 18px;
+}
+.formBlock div.uploader {
+	height: 100%;
+	overflow: visible;
+	width: 100%;
+}
+.formBlock .uploader input {
+	border: 1px solid red;
+	float: none;
+	left: 0;
+	right: auto;
+	margin-top: 0;
+	width: 123%;
+	z-index: 10;
+}
+.formBlock .uploader .fileName {
+	color: #00bbbe;
+	display: block;
+
+}
+.formBlock .uploader .fileBtn {
+	background: #00bbbe url('../images/picto_joindre.png') no-repeat 12px center;
+	right: -88px;
+	text-indent: 18px;
+	z-index: 0;
+}
+.formBlock .repetAnnonce {
+	/* height: 200px; */
+}
+.formBlock dd.repetAnnonce {
+	padding: 0;
+	width: 62%;
+}
+.formBlock .repetAnnonce select {
+	margin: 6px 5px 0;
+	width: 98.2%;
+}
+.formBlock .separator {
+	background: #f0f0f0;
+	height: 1px;
+	margin: 6px 0 0;
+	width: 100%
+}
+.formBlock .repetAnnonce input {
+	margin: 6px 5px 0;
+	width: 94.8%;
+}
+.formBlock .repetAnnonce span  {
+	padding: 0 5px 0 12px;
+}
+.formBlock .momentList {
+	margin-top: 10px;
+}
+.formBlock .momentList li {
+	background: url('../images/picto_temps.png') no-repeat 12px center;
+	border-top: 1px solid #f0f0f0; 
+	color: #070707;
+	display: block;
+	font-size: 1.1em;
+	line-height: 25px;
+	padding: 0 5px 0 37px;
+}
+.formBlock .momentList li a {
+	background: url('../images/picto_suppr.png') no-repeat right center;
+	display: block;
+	float: right;
+	line-height: 25px;
+	text-indent: -9999px;
+	
+	width: 11px;
+}
+.formBlock .momentList li:last-child {}
+
+.fieldBlock select,
+.fieldBlock input,
+.formBlock input, 
+.formBlock select,
+.formBlock textarea,
+.chiffreAffaireBlock .pickerDate input  {
+	border: none;
+	-webkit-box-shadow: inset 0px 0px 4px 1px rgba(21, 21, 21, 0.16);
+	-moz-box-shadow: inset 0px 0px 4px 1px rgba(21, 21, 21, 0.16);
+	box-shadow: inset 0px 0px 4px 1px rgba(50, 50, 50, 0.16);
+}
+.formBlock input {
+	color: #000;
+	border: 1px solid #d1d1d1;
+	display: block;
+	font-size: 1.1em;
+	height: 27px;
+	margin-top: 7px;
+	padding: 0 1.5%;
+	width: 96.6%;
+}
+
+.formBlock label.inlineLabel {
+	float: left;
+	line-height: 15px;
+	margin: 15px 15px 0 0;
+}
+.formBlock input.checkboxItem,
+.formBlock input.radioItem {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	float: left;
+	height: 15px;
+	margin: 15px 7px 0 0;
+	width: 15px;
+}
+.formBlock select {
+	background: #fff;
+	border: 1px solid #d1d1d1;
+	color: #000;
+	display: block;
+	font-size: 1.1em;
+	height: 29px;
+	margin-top: 6px;
+	padding: 5px 4px 5px 2px;
+	width: 100%;
+}
+.formBlock select[name="client"] {color: #00bbbe;}
+.formBlock select option {
+	padding: 0 5px 5px;
+}
+.formBlock textarea {
+	color: #000;
+	background: #fff;
+	border: 1px solid #d1d1d1;
+	display: block;
+	font-size: 1.1em;
+	margin: 7px 0;
+	min-height: 61px;
+	padding: 5px 1.5%;
+	width: 96.6%;
+}
+.formBlock .errorList li {
+	color: #f00;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	padding: 3px 1.5%;
+}
+.formBlock .btnAction {
+	border: none;
+	float: left;
+	margin-right: 20px;
+	padding: 37px 0 0;
+	width: 100%;
+	/* width: 36.75%; */
+}
+.formBlock .btnAction input, .formBlock .btnAction button {
+	border: none;
+	box-shadow: none;
+	color: #333;
+	display: block;
+	float: left;
+	font-size: 1.4em;
+	font-weight: 700;
+	height: 38px;
+	margin: 0;
+	padding: 0 0 0 45px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 204px;
+}
+.formBlock .btnAction .sauvegarderBtn {
+	background: url('../images/bgbtn_sauvegarder.png') no-repeat;
+	margin-right: 20px;
+}
+.formBlock .btnAction .annulerBtn {
+	background: url('../images/bgbtn_annuler.png') no-repeat;
+}
+.formBlock .btnAction .modifierBtn {
+	background: url('../images/bgbtn_modifier.png') no-repeat;
+	margin-right: 20px;
+}
+.formBlock .btnAction .supprimerBtn {
+	background: url('../images/bgbtn_supprimer.png') no-repeat;
+}
+.formBlock .hasLink span { color: #00bbbe;}
+.formBlock .hasLink .linkVoir {
+	background: #00bbbe;
+	border: 1px solid #f0f0f0; 
+	border-left: none;
+	color: #fff;
+	display: block;
+	font-size: 1.1em;
+	height: 41px;
+	position: absolute;
+	right: -83px;
+	top: -1px;
+	padding: 0 12px;
+	width: 57px;
+}
+.formBlock .hasLink .linkVoir span {
+	background: url('../images/picto_voir.png') no-repeat left center;
+	color: #fff;
+	display: block;
+	padding-left: 21px;
+}
+
+.formBlock .msgTxt {}
+.formBlock .msgTxt p { 
+	height: auto;
+	line-height: normal;
+	padding: 5px 0;
+}
+
+/* bouton nouveau */
+.createBtn { margin-bottom: 20px;}
+.createBtn a {
+	background: url('../images/btn_creer.png') no-repeat;
+	color: #535353;
+	display: block;
+	font-size: 1.4em;
+	font-weight: 700;
+	height: 38px;
+	line-height: 38px;
+	padding-left: 45px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 159px;
+}
+
+
+
+
+

@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/* connect Style */
+.pageIdentification {
+	background: #fff;
+	min-height: 480px;
+/*  min-height: 640px; */
+}
+header, .container {
+	margin: 0 auto;
+	padding: 24px 0;
+	width: 500px;
+}
+header {
+	height: auto;
+}
+header .wrapper {
+	background: none;
+	height: auto;
+	padding: 0;
+}
+header .logo {
+	float: none;
+	margin: 0;
+	text-align: center; 
+}
+header .logo .imgLogo { 
+	float: none;
+	margin: 0;
+	width: auto;
+ }
+footer { display: none;}
+
+.container {
+	min-height: 0;
+	padding: 24px 0 0;
+}
+.container .wrapper {
+	width: 100%;
+}
+.wrapContent {
+	-webkit-box-shadow: 0 0 5px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0 0 5px rgba(50, 50, 50, 0.5);
+	box-shadow:         0 0 5px rgba(50, 50, 50, 0.5);
+}
+.container .fieldBlock {
+	background: #f8f8f8;
+	padding: 28px 90px 42px;
+}
+.container h1 {
+	background: url('../images/shadow12.png') no-repeat center bottom;
+	color: #000;
+	font-size: 1.8em;
+	margin-bottom: 23px;
+	padding-bottom: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.fieldBlock .errorInfos {
+	background: url('../images/fleche_bas.png') no-repeat left center;
+	color: #056fb3;
+	font-size: 1.1em;
+	line-height: normal;
+	padding-left: 20px;
+}
+.identificationBlock { padding-bottom: 24px;}
+.identificationBlock .fieldBlock dl {
+	/*  */
+	/* -webkit-box-shadow: inset 0px 0px 4px 1px rgba(21, 21, 21, 0.25);
+	-moz-box-shadow: inset 0px 0px 4px 1px rgba(21, 21, 21, 0.25);
+	box-shadow: inset 0px 0px 4px 1px rgba(50, 50, 50, 0.25); */
+	/* height: 38px; */
+	margin-top: 22px;
+	width: 100%;
+	/* width: 317px; */
+}
+.fieldBlock .error {
+	border-color: #056fb3;
+}
+.fieldBlock dt {
+	-webkit-box-shadow: inset 0px 0px 4px 1px rgba(21, 21, 21, 0.25);
+	-moz-box-shadow: inset 0px 0px 4px 1px rgba(21, 21, 21, 0.25);
+	box-shadow: inset 0px 0px 4px 1px rgba(50, 50, 50, 0.25);
+	border: 1px solid #808080;
+	border-right: none;
+	clear: left;
+	float: left;
+	height: 38px;
+	width: 41px;
+}
+.fieldBlock label {
+	color: transparent;
+	display: block;
+	font-size: 0;
+	line-height: 38px;
+	text-align: center;
+	text-indent: -1000px;
+	width: 100%;
+}
+.fieldBlock .userField { margin-bottom: 22px}
+.fieldBlock .userField label {
+	background: url('../images/picto_user_gris.png') no-repeat center center;
+}
+.fieldBlock .pwdField label {
+	background: url('../images/picto_cle.png') no-repeat center center;
+}
+.fieldBlock dd {
+	border: 1px solid #808080;
+	border-left: 1px solid #c4c4c4;
+	-webkit-box-shadow: inset 0px 0px 4px 1px rgba(21, 21, 21, 0.25);
+	-moz-box-shadow: inset 0px 0px 4px 1px rgba(21, 21, 21, 0.25);
+	box-shadow: inset 0px 0px 4px 1px rgba(50, 50, 50, 0.25);
+	float: left;
+	height: 38px;
+	margin: 0;
+	height: 38px;
+	/* width: 70%; */
+}
+.fieldBlock input {
+	background: none;
+	border: none;
+	color: #adadad;
+	display: block;
+	font-size: 1.8em;
+	font-weight: 400;
+	height: 100%;
+	padding: 0 15px;
+	width: 245px;
+}
+.fieldBlock .error input {
+	color: #056fb3;
+}
+.fieldBlock .btnAction {
+	background: none;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	margin-top: 27px;
+	width: 180px;
+}
+.fieldBlock .btnAction input {
+	background: #a9a9a9;
+	border: 1px solid #808080;
+	color: #fff;
+	display: block;
+	font-size: 1.4em;
+	height: 38px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 180px;
+}
+.fieldBlock .btnAction input:hover {
+	background: #f4f4f4;
+	color: #3a3a3a;
+}
+.aideBlock {
+	background: url('../images/bgpatern_gris2.png') repeat;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 90px;
+}
+.aideBlock a {
+	background: url('../images/picto_question.png') no-repeat left center;
+	color: #fbe20a;
+	font-size: 1.2em;
+	padding-left: 13px;
+}

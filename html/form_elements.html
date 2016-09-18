@@ -1,0 +1,156 @@
+﻿    <!doctype html>
+    <html>
+    <head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Gestion Commerciale || Forms elements</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/uniform.default.css" rel="stylesheet" type="text/css">
+        <link href="css/commun.css" rel="stylesheet" type="text/css">
+        <link href="css/page.css" rel="stylesheet" type="text/css">
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="page pageForms">
+            <!-- header -->
+            <header>
+                <div class="wrapper clearfix">
+                    <div class="logo">
+                        <a href="#">
+                            <span class="imgLogo"><img src="images/logo_168.png" alt=""></span>
+                            <span class="txtLogo">Gestion Commerciale</span>
+                        </a>
+                    </div>
+                    <!-- Block Identification -->
+                    <div class="blockAccess">
+                        <p><em>Bonjour,</em>Andy ranaivo</p>
+                        <span class="deconnectBtn"><img src="images/picto_user.png" alt=""></span>
+                        <div class="deconnectBlk"><a href="#"><span class="flecheBlock"></span><span>Déconnexion</span></a></div>
+                    </div>
+                    <!-- /Block Identification -->
+                </div>
+
+                <!-- Fil d'ariane -->
+                <div class="breadCrumb">
+                    <div class="wrapper">
+                        <p class="innerContent">                    
+                            <a href="#">Accueil</a><a href="#">Gestion des produits</a>Edition
+                        </p>
+                    </div>
+                </div>
+                <!-- /Fil d'ariane -->
+            </header>
+            <!-- /header -->
+
+        	<!-- content Page -->
+            <article class="container">
+                <div class="wrapperStandard clearfix">
+                    <!-- Menu à gauche -->
+                    <aside class="leftMenu">
+                        <nav>
+                            <ul class="menuList">
+                                <li class="daksBoardItem"><a href="#">Tableau de Bord</a></li>
+                                <li class="gestionProduitsItem active">
+                                    <a href="#">Gestion des produits</a>
+                                    <ul class="subMenu">
+                                        <li><a href="#">Lorem ipsum dolor</a></li>
+                                        <li><a href="#">Adipiscing ut met</a></li>
+                                        <li><a href="#">Consectetuer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="gestionStockItem"><a href="#">Gestion des stocks</a></li>
+                                <li class="gestionFournisseursItem"><a href="#">Gestion des fournisseurs</a></li>
+                                <li class="gestionClientsItem"><a href="#">Gestion des clients</a></li>
+                                <li class="gestionFacturesItem"><a href="#">Gestion de la facturation</a></li>
+                                <li class="gestionDocumentsItem"><a href="#">Gestion des documents</a></li>
+                                <li class="gestionUtilisateursItem"><a href="#">Gestion des utilisateurs</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+                    <!-- /Menu à gauche -->
+
+                    <!-- Corps de contenu -->
+                    <section class="contentWrap fLeft">
+                        <h1>Composants de formulaire</h1>
+                        <!-- Block Formulaire -->
+                        <section class="formBlock">
+                            <form action="#">
+                                <dl class="clearfix">
+                                    <dt><label>Libellé de champ</label></dt>
+                                    <dd>
+                                        <input type="text" name="field01" id="field01" value="Valeur par defaut du champ" placeholder="Valeur par defaut du champ">
+                                    </dd>
+                                    <dt><label>Libellé de champ</label></dt>
+                                    <dd>
+                                        <select name="select">
+                                            <option value="1">Valeur par defaut du champ</option>    
+                                            <option value="2">item 02</option>    
+                                            <option value="3">item 03</option>    
+                                            <option value="4">item 04</option>    
+                                            <option value="5">item 05</option>    
+                                        </select>
+                                    </dd>
+                                    <dt><label>Libellé de champ</label></dt>
+                                    <dd>
+                                        <ul class="momentList">
+                                            <li>Valeur enregistré<a href="#">Supprimers</a></li>
+                                        </ul>
+                                        <input class="dateTime" id="dateTime" type="text" name="date_repetition">
+                                        <a href="#" class="btnAjouter blkRight" title="Ajouter"><span>Ajouter</span></a>
+                                    </dd>
+
+                                    <dt class="txtItem"><label for="texte_id">Texte</label></dt>
+                                    <dd class="txtItem">
+                                        <textarea name="texte" id="texte_id" rows="5"></textarea>
+                                    </dd>
+                                    <dt><label>Libellé de champ</label></dt>
+                                    <dd>
+                                        <input class="checkboxItem" type="checkbox" name="checkbox01" id="checkbox01_id" value="Choix 1">
+                                        <label class="inlineLabel" for="checkbox01_id">Choix 1</label>
+                                        <input class="checkboxItem" type="checkbox" name="checkbox02" id="checkbox02_id" value="Choix 2">
+                                        <label class="inlineLabel" for="checkbox02_id">Choix 2</label>
+                                        <input class="checkboxItem" type="checkbox" name="checkbox03" id="checkbox03_id" value="Choix 3">
+                                        <label class="inlineLabel"for="checkbox03_id">Choix 3</label>
+                                    </dd>
+                                    <dt><label>Libellé de champ</label></dt>
+                                    <dd>
+                                        <input class="radioItem" type="radio" name="radioItem" id="radio01_id" value="Choix 1">
+                                        <label class="inlineLabel"for="radio01_id">Choix 1</label>
+                                        <input class="radioItem" type="radio" name="radioItem" id="radio02_id" value="Choix 2">
+                                        <label class="inlineLabel"for="radio02_id">Choix 2</label>
+                                        <input class="radioItem" type="radio" name="radioItem" id="radio03_id" value="Choix 3">
+                                        <label class="inlineLabel"for="radio03_id">Choix 3</label>
+                                    </dd>
+
+                                    <dt class="btnAction">
+                                        <input class="sauvegarderBtn" type="submit" Value="Sauvegarder" name="sauvegarder" id="sauvegarder_id" >
+                                        <button class="annulerBtn">Annuler</button>
+                                    </dt>
+                                </dl>
+                            </form>
+                        </section>
+                        <!-- /Block Formulaire -->
+                    </section>
+                    <!-- Corps de contenu -->
+                </div>
+            </article>
+            <!-- /content Page -->
+            
+            <!-- footer -->
+        	<footer class="footer">
+                <div class="wrapper clearfix">
+                    <ul class="fLeft">
+                        <li><a href="#" title="Mon profil">Mon profil</a></li>
+                        <li><a href="#" title="Déconnexion">Déconnexion</a></li>
+                    </ul>
+                    <p class="fRight">Copyright &copy; 2015, Gestion commerciale <br>All rights reserved</p>
+                </div>
+            </footer>
+        	<!-- /footer -->
+        </div>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.uniform.js"></script>
+        <script type="text/javascript" src="js/menuNav.js"></script>
+        <script type="text/javascript" src="js/global.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* main page*/
+.homePage .wrapper {
+	/* width: 1014px; */
+}
+.mainPage {
+	margin: 0 auto;
+	padding-top: 95px;
+	width: 1008px;
+	/* width: 864px; */
+}
+.mainPage li {
+	background: url('../images/shadow16.png') no-repeat center bottom;
+	/* background: rgba(253, 253, 253, 0.65); */
+	float: left;
+	height: 149px;
+	margin: 0 12px 21px;
+	padding-bottom: 13px;
+	width: 228px;
+}
+.mainPage li .wrap {
+	background: #f0f0f0;
+	-webkit-box-shadow: 0 -1px 5px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    0 -1px 5px rgba(50, 50, 50, 0.25);
+	box-shadow:         0 -1px 5px rgba(50, 50, 50, 0.25);
+	padding: 6px;
+}
+.mainPage a {
+	background: #fdfdfd;
+	border: 1px solid #979797;
+	color: #2d2d2d;
+	display: block;
+	/* height: 134px; */
+	text-align: center;
+	text-decoration: none;
+}
+.mainPage a .pictoBlock {
+	display: block;
+	height: 80px;
+	margin: 10px 0;
+	overflow: hidden;
+	text-align: center;
+}
+.mainPage a .titre {
+	background: #056fb3;
+	color: #fefefe;
+	font-size: 1.2em;
+	height: 32px;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+
+.mainPage .daksBoardItem a .pictoBlock {
+	background: url('../images/picto_dashBoard.png') no-repeat center top;
+}
+.mainPage .gestionProduitsItem a .pictoBlock {
+	background: url('../images/picto_produits.png') no-repeat center top;
+}
+.mainPage .gestionStockItem a .pictoBlock {
+	background: url('../images/picto_stock.png') no-repeat center top;
+}
+.mainPage .gestionFournisseursItem a .pictoBlock {
+	background: url('../images/picto_fournisseurs.png') no-repeat center top;
+}
+.mainPage .gestionClientsItem a .pictoBlock {
+	background: url('../images/picto_clients.png') no-repeat center top;
+}
+.mainPage .gestionFacturesItem a .pictoBlock {
+	background: url('../images/picto_factures.png') no-repeat center top;
+}
+.mainPage .gestionDocumentsItem a .pictoBlock {
+	background: url('../images/picto_documents.png') no-repeat center top;
+}
+.mainPage .gestionUtilisateursItem a .pictoBlock {
+	 background: url('../images/picto_utilisateurs.png') no-repeat center top;
+}
+
+/* .mainPage .gestionProduitsItem a .pictoBlock {
+	background: url('../images/picto_annonces.png') no-repeat center top;
+}
+.mainPage .gestionStockItem a .pictoBlock {
+	background: url('../images/picto_clients.png') no-repeat center top;
+}
+.mainPage .gestionFactureItem a .pictoBlock {
+	background: url('../images/picto_facturation.png') no-repeat center top;
+}
+.mainPage .playerItem a .pictoBlock {
+	background: url('../images/picto_player.png') no-repeat center top;
+}
+*/
+
+.mainPage a:hover {
+	text-decoration: none;
+}
+.mainPage a:hover .pictoBlock {
+	/* background-position: center -80px; */
+}
+.mainPage a:hover .titre {
+	background: #fae31d;
+	color: #010101;
+}
