@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+.fleft { float: left;}
+.fright { float: right;}
+
+.pageFacture {
+	margin: 0 auto;
+	width: 790px;
+}
+header {}
+header h1 {}
+
+header .imgLogo {
+	display: block;
+	float: left;
+	margin: 0 20px 0 0;
+	width: 168px;
+}
+header .txtLogo {
+	color: #000;
+	font-size: 1.4em;
+	font-weight: 700;
+	height: 42px;
+	line-height: 42px;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+header p {
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+header p span {
+	display: inline-block;
+	vertical-align: top;
+	width: 68%;	
+}
+header p .labeled {
+	font-weight: 700;
+	text-transform: uppercase;
+	width: 32%;
+}
+
+.information-societe {
+	border-bottom: 1px solid #f0f0f0;
+	margin: 20px 0;
+	padding-bottom: 10px;
+}
+.information-societe p {
+	margin-bottom: 0px;
+}
+.information-societe .labeled {
+	width: 15%;
+}
+header .information-societe .logo { margin-bottom: 0; }
+header .information-societe .logo span {
+	display: block;
+	float: left;
+	width: auto;
+}
+.wrapBlock {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 10px;
+}
+.information-client {
+	margin: 0;
+	width: 45%;
+}
+.information-client span {
+	display: inline-block;
+	text-align: right;
+	width: 65%;
+}
+.information-client .labeled { 
+	text-align: left;
+
+}
+.information-facture {
+	clear: both;
+	float: left;
+	width: 50%;
+}
+
+.container {
+	padding: 20px 0 40px;
+}
+.imprimer {
+	text-align: center;
+	width: 100%;
+}
+.imprimer tr {
+	background: #fff;
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 1px 0;
+	height: 38px
+}
+.imprimer th, 
+.imprimer td {
+	color: #5b5b5b;
+	font-size: 1.2em;
+	height: 38px;
+	vertical-align: middle;
+	padding: 0 15px;
+	text-align: left;
+}
+.imprimer th {
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 0 0 0 1px;
+	color: #056fb3;
+	font-size: 1.3em;
+	font-weight: 700;
+	position: relative;
+	text-transform: uppercase;
+}
+.imprimer td {
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 0 0 0 1px;
+	position: relative;
+}
+.imprimer th:first-child,
+.imprimer td:first-child {
+	border-left: none;
+}
+.imprimer .colRef {
+	width: 10%;
+}
+.imprimer .col1 { text-align: right; width: 10%; }
+.imprimer .col2 { width: auto; }
+.imprimer .col3 { text-align: right; width: 10%; }
+.imprimer .col4 { text-align: right; width: 20%; }
+.imprimer .col5 { 
+	text-align: right;
+	width: 25%;
+}
+.imprimer .total td {
+	font-weight: 700;
+	text-align: right; 
+}
+.imprimer .total .colPrix { 
+}
+
+footer {
+	padding: 0 20px 10px;
+}
+footer p {
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: center;
+}
+footer .note {
+	clear: both;
+	padding-top: 100px;
+}
+footer .note p {
+	margin-bottom: 20px;
+}
+footer .note .confiance {
+	font-family: "georgia", serif;
+	font-style: italic;
+	font-size: 14px;
+}
+footer p span {
+	display: block;
+	font-weight: 700;
+}
+
+footer .blockClient {}
+footer .blockResponsable {}
