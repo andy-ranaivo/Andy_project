@@ -1,0 +1,84 @@
+
+#page
+{
+	width:1000px;
+	margin:Auto;
+}
+#entete
+{
+	width:1000px;
+	height:200px;
+	background:url(image/entete.jpg);
+}
+
+#entetemapa
+{
+	width:1000px;
+	height:100px;
+	background:url(image/mapage.jpg);
+}
+
+#entete2
+{
+	width:1000px;
+	height:200px;
+	background:url(image/entete2.jpg);
+}
+
+#menu_inscription
+{
+	width:300px;
+	height:400px;
+	background:white;
+	float:right;
+	text-align:center;
+}
+
+#corps
+{
+	margin-top:0px;
+	width:700px;
+	height:400px;
+	background:url(image/corps.jpg);
+}
+
+#corps2
+{
+	margin-top:0px;
+	width:1000px;
+	height:400px;
+	height:400px;
+}
+
+#basdepage
+{
+	width:1000px;
+	height:100px;
+	background:white;
+}
+.titre
+{
+	font-size:16pt;
+	color:Blue;
+	text-align:center;
+
+}
+.important
+{
+	font-size:12pt;
+	color:red;
+}
+.vite
+{
+	color:red;
+	font-size:14pt;
+}
+.nom
+{
+	font-family:Orange LET;
+	color:blue;
+	font-weight:bold;
+	font-size:20pt;
+	margin-left:10pt;
+}
+
